@@ -1,0 +1,38 @@
+body{
+    /* opacity: 0.3; */
+    background-image:url('../images/background1.jpg');
+}
+
+#main{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.answer:hover{
+    color: #7cf18c;
+}
+
+#timeLeft{
+    padding-top: 20px;
+    font-weight: bolder;
+    color: greenyellow;
+}
+
+.selection{
+    margin: 20px;
+}
+
+
+#question{
+    margin: 50px;
+    color: #ffffff;
+}
+
+.timer{
+    padding-top: 50px;
+}
+
+.winLoss{
+    font-weight: bolder;
+    color: greenyellow;
+}

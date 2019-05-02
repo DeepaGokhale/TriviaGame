@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- link to Bootstrap-->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- link to our external stylesheet-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+    <title>Trivia - Test your knowledge</title>
+</head>
+<body>
+    <nav id="header" class="navbar-expand-sm bg-dark navbar-dark text-center">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <h1 id="topnav">Trivia Game</h1>
+        </a>
+        
+
+    </nav>
+
+    <div id="main" class="bg-img"> 
+        <div class="timer text-center">
+            <h3><span id="timeLeft">Time Remaining: 30 Seconds</span></h3>
+        </div>
+        <div class="text-center">
+            <h1 id="question" >Trivia question can you answer?</h1>
+        </div>
+        <div></div>
+        <div class="row text-center">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">               
+                <h3><a class="answer" id="answer1" href="#">answer1</a></h3>
+            </div>       
+            <div class="col-sm-3">                
+                <h3><a class="answer" id="answer2" href="#">answer2</a></h3>
+            </div>  
+            <div class="col-sm-3"></div>
+            </div> 
+        <div class="row text-center">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <!-- <h3 class="selection"><span id="answer3" class="answer">answer3</span></h3> -->
+                <h3><a class="answer" id="answer3" href="#">answer3</a></h3>
+            </div>       
+            <div class="col-sm-3">
+                    <h3><a class="answer" id="answer4" href="#">answer4</a></h3>
+            </div> 
+            <div class="col-sm-3"></div>
+        </div>  
+        <div class="row text-center">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <h2><button onclick="nextQuestion()" class="btn btn-lg btn-danger">Start the Game</button></h2>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-3"></div>
+            <!-- <h3><span><div id="wins"></div></span></h3> -->
+            <div class="col-sm-3">
+                    <h3><a class="winLoss" id="wins" href="#"></a></h3>
+            </div> 
+            <!-- <h3><span><div id="losses"></div></span></h3> -->
+            <div class="col-sm-3">
+                    <h3><a class="winLoss" id="losses" href="#"></a></h3>
+            </div> 
+            <div class="col-sm-3"></div>
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script type="text/javascript">
+       
+    </script>
+</body>
+</html>
+
