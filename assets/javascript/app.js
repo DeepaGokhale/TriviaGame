@@ -15,8 +15,8 @@ var triviaQuestions = [ {question: "Bronze is an alloy consisting of two or more
                         {question: "Air is mostly made up of:" , answer1: "Oxygen" , answer2: "Nitrogen ", answer3: "Carbon dioxide" , answer4:"Argon" , answerKey: "1"}, 
                         {question: "What is the first element on the periodic table?" , answer1: "Sodium" , answer2: "Oxygen", answer3: "Helium" , answer4:"Hydrogen" , answerKey: "4"}, 
                         {question: "Which side of your brain has more neurons?" , answer1: "Right" , answer2: "Left", answer3: "Both the same" , answer4:"None of the above" , answerKey: "2"}, 
-                        {question: "Which Desert dominates a large area of Northern Africa?" , answer1: "Red Sea" , answer2: "Aegean Sea", answer3: "Black Sea" , answer4:"Mediterranean Sea" , answerKey: "2"}, 
-                        {question: "What is the body of water that borders Greece, Turkey and Southern Italy?" , answer1: "Dolly" , answer2: "Donna", answer3: "Holly" , answer4:"Hailey" , answerKey: "1"}, 
+                        {question: "Which Desert dominates a large area of Northern Africa?" , answer1: "Kalahari" , answer2: "Sahara", answer3: "Gobi" , answer4:"Atacama" , answerKey: "2"}, 
+                        {question: "What is the body of water that borders Greece, Turkey and Southern Italy?" , answer1: "Red Sea" , answer2: "Black Sea", answer3: "Aegean Sea" , answer4:"Mediterranean Sea" , answerKey: "2"}, 
                         ];
 
 window.onload = function() {
