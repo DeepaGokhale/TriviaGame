@@ -27,7 +27,7 @@
 
     <div id="main" class="bg-img"> 
         <div class="timer text-center">
-            <h3><span id="timeLeft">Time Remaining: 30 Seconds</span></h3>
+            <h3><span id="timeLeft">Time Remaining: 15 Seconds</span></h3>
         </div>
         <div class="text-center">
             <h1 id="question" >Trivia question can you answer?</h1>
@@ -36,10 +36,10 @@
         <div class="row text-center">
             <div class="col-sm-3"></div>
             <div class="col-sm-3">               
-                <h3><a class="answer" id="answer1" href="#">answer1</a></h3>
+                <h3><a class="answer" id="answer1" href="#" data-name="wrong">answer1</a></h3>
             </div>       
             <div class="col-sm-3">                
-                <h3><a class="answer" id="answer2" href="#">answer2</a></h3>
+                <h3><a class="answer" id="answer2" href="#" data-name="wrong">answer2</a></h3>
             </div>  
             <div class="col-sm-3"></div>
             </div> 
@@ -47,31 +47,37 @@
             <div class="col-sm-3"></div>
             <div class="col-sm-3">
                 <!-- <h3 class="selection"><span id="answer3" class="answer">answer3</span></h3> -->
-                <h3><a class="answer" id="answer3" href="#">answer3</a></h3>
+                <h3><a class="answer" id="answer3" href="#" data-name="wrong">answer3</a></h3>
             </div>       
             <div class="col-sm-3">
-                    <h3><a class="answer" id="answer4" href="#">answer4</a></h3>
+                    <h3><a class="answer" id="answer4" href="#" data-name="wrong">answer4</a></h3>
             </div> 
             <div class="col-sm-3"></div>
         </div>  
         <div class="row text-center">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                <h2><button onclick="nextQuestion()" class="btn btn-lg btn-danger">Start the Game</button></h2>
+                <h2><button onclick="nextQuestion()" class="btn btn-lg btn-danger" id="btnStart">Start the Game</button></h2>
             </div>
             <div class="col-sm-3"></div>
         </div>
+
         <div class="row text-center">
             <div class="col-sm-3"></div>
             <!-- <h3><span><div id="wins"></div></span></h3> -->
             <div class="col-sm-3">
-                    <h3><a class="winLoss" id="wins" href="#"></a></h3>
+                    <h2><a class="winLoss" id="wins" href="#"></a></h2>
             </div> 
             <!-- <h3><span><div id="losses"></div></span></h3> -->
             <div class="col-sm-3">
-                    <h3><a class="winLoss" id="losses" href="#"></a></h3>
+                    <h2><a class="winLoss" id="losses" href="#"></a></h2>
             </div> 
-            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <!-- <audio controls id="bellSound" hidden=true>
+                    <source src="assets/winnerBell.aif" type="audio/aiff">
+                    <source src="assets/winnerBell.mp3" type="audio/mp3">
+                </audio> -->
+            </div>
         </div>
         
     </div>

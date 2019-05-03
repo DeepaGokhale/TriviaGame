@@ -1,11 +1,15 @@
 body{
     /* opacity: 0.3; */
-    background-image:url('../images/background1.jpg');
+    background-image:url('../images/background3.jpg');
 }
 
 #main{
     width: 100%;
     margin-top: 20px;
+}
+
+.answer{
+    color: #adff2f;
 }
 
 .answer:hover{
@@ -15,13 +19,12 @@ body{
 #timeLeft{
     padding-top: 20px;
     font-weight: bolder;
-    color: greenyellow;
+    color: #adff2f;
 }
 
 .selection{
     margin: 20px;
 }
-
 
 #question{
     margin: 50px;
@@ -34,5 +37,6 @@ body{
 
 .winLoss{
     font-weight: bolder;
-    color: greenyellow;
+    color: #ffffff;
+    /* color: black; */
 }
